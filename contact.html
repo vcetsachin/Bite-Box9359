@@ -7,15 +7,119 @@
 </head>
 <body>
     <h1>Contact us</h1>
-      <p> <a href="index.html" style="text-decoration: none; color: black;">Home</a> |
+      <p> 
+      <a href="index.html" style="text-decoration: none; color: black;">Home</a> |
       <a href="about.html" style="text-decoration: none; color: black;">About </a> |
       <a href="contact.html" style="text-decoration: none; color: black;">Contact </a>|
       <a href="menu.html" style="text-decoration: none;  color: black;">Menu</a>
-    </p>
 
-<h2>Visit our website</h2>
+    </p>
+    <h2>Visit our website</h2>
 <p>
     <a href="https://www.google.com" style="text-decoration: none; color: black ;"> Visit Google</a>
 </p>
+    <hr>
+    <h2>Customer Registration & Order Form</h2>
+    <form action="">
+        <h3>Customer Information</h3>
+        <label for="fullname">Full Name</label>
+        <br>
+        <input type="text" id="fullname" name="fullname">
+        <br><br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" id="email">
+        <br><br>
+
+        <label for="password">Password</label>
+        <br>
+        <input type="password" name="password", id="password">
+        <br><br>
+
+        <label for="phone">Phone Number</label>
+        <br>
+        <input type="phone" id="phone" name="phone">
+        <br><br>
+
+
+        <h3>Order Information</h3>
+        <label for="quantity">Quantity</label>
+        <br>
+        <input type="number" id="quantity" name="quantity">
+        <br><br>
+
+        <label for="deliveryDate">
+            Preferred Delivery Date
+
+        </label>
+        <br>
+        <input type="date" id="delivereDate" name="delivereDate">
+        <br><br>
+
+        <label for="food">Select Food Item</label>
+        <br>
+        <select id="food" name="food">
+            <option value="">
+                Veg Pizza
+            </option>
+
+            <option value="">
+                Cheese Burger
+            </option>
+
+            <option value="">
+                White Sause Pasta
+            </option>
+
+            <option value="">
+             Veg Grilled Sandwitch
+            </option>
+            <option value="">
+                Chocolate Brownie
+            </option>
+
+            <h3>Payment Method</h3>
+
+
+            <input type="radio" id="cash" name="payment">
+            <label for="cash">Card</label>
+            <br>
+
+            <input type="radio" id="card" name="payment">
+            <label for="card">Card</label>
+            <br>
+
+            <input type="radio" id="upi" name="Payment">
+            <label for="upi">UPI</label>
+            <br><br>
+        </select>
+         <h3> Extras </h3>
+<input type="checkbox" id="cheese" name="extras">
+<label for="cheese"> Extra Cheese </label>
+<br>
+
+<input type="checkbox" id="drink" name="extras">
+<label for="drink"> Cold Drink </label>
+<br>
+
+<input type="checkbox" id="dessert" name="extras">
+<label for="dessert"> Dessert </label>
+<br><br>
+
+<h3>Delivery Instructions </h3>
+
+<label for="address">
+
+Delivery Address
+
+</label>
+
+<br>
+
+<textarea id="address" name="address" rows="5" cols="40">
+</textarea>
+
+<br><br>
+    </form>
 </body>
 </html>
