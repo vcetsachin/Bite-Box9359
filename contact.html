@@ -19,6 +19,7 @@
     <a href="https://www.google.com" style="text-decoration: none; color: black ;"> Visit Google</a>
 </p>
     <hr>
+     
     <h2>Customer Registration & Order Form</h2>
     <form action="">
         <h3>Customer Information</h3>
@@ -77,22 +78,22 @@
             <option value="">
                 Chocolate Brownie
             </option>
-            
             </select>
+
             <h3>Payment Method</h3>
 
-            <input type="radio" id="cash" name="payment">
-            <label for="cash">Card</label>
-            <br>
+<input type="radio" id="cash" name="payment" value="cash">
+<label for="cash">Cash</label>
+<br>
 
-            <input type="radio" id="card" name="payment">
-            <label for="card">Card</label>
-            <br>
+<input type="radio" id="card" name="payment" value="card">
+<label for="card">Card</label>
+<br>
 
-            <input type="radio" id="upi" name="Payment">
-            <label for="upi">UPI</label>
-            <br><br>
-        </select>
+<input type="radio" id="upi" name="payment" value="upi">
+<label for="upi">UPI</label>
+
+<br><br>
          <h3> Extras </h3>
 <input type="checkbox" id="cheese" name="extras">
 <label for="cheese"> Extra Cheese </label>
@@ -118,8 +119,10 @@ Delivery Address
 
 <textarea id="address" name="address" rows="5" cols="40">
 </textarea>
-
 <br><br>
+
+<input type="button" value="place Order">
+<input type="reset" value="clear form">
     </form>
 </body>
 </html>
