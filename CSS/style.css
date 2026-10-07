@@ -5,6 +5,9 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
+
+
+
 .logo{
 width:170px;
 height:auto;
@@ -23,3 +26,225 @@ nav a:hover{
     text-decoration: underline;
 }
 
+
+/* Home Hero Section */
+#home-hero{
+    background-image: url("../Assets/images/BiteBox2.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+    height: 430px;
+    padding: 20px 80px;
+}
+
+#home-hero h1 span{
+    color: rgb(231, 26, 77);
+}
+
+#home-hero h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+    line-height: 80px;
+    width: 650px;
+    margin-bottom: 20px;
+}
+
+#home-hero p{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    width: 420px;
+    margin: 35px;
+}
+.hero-buttons{
+    margin-top: 35px;
+}
+
+.hero-buttons button{
+    display: inline-block;
+ min-width: 180px;
+ padding: 15px 35px;
+ text-align: center;
+ font-size: 18px;
+ font-weight: 600px;
+ border-radius: 10px;
+ transition: 0.3s;
+ background-color: hsl(25, 90%, 49%);
+ 
+}
+.hero-buttons a{
+     text-decoration: none;
+     color: white; 
+}
+
+.order-btn:hover{
+    background-color: #D32f2f;
+}
+
+.menu-btn:hover{
+  background-color: white;
+  color: #222;
+}
+
+#menu-hero{
+    background-image: url('../Assets/images/t1.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 520px;
+    text-align: center;
+    padding-top: 65px;
+}
+
+#menu-hero h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(14, 177, 227, 0.5);
+    margin-bottom: 10px;
+}
+
+#menu-hero p{
+    color:white;
+    font-size: 20px;
+    line-height: 34px;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto 35px;
+}
+
+#categories{
+    background-color: #ffffff;
+    padding: 60px 80px;
+    text-align: center;
+}
+
+#categories h2{
+    font-size: 40px;
+    font-size: 70px;
+    color: #222222;
+    margin-bottom: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+#categories img{
+ border-radius: 50%;
+}
+
+#contact-hero{
+  background-image: url('../Assets/images/contact.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 520px;
+    text-align: center;
+    padding-top: 65px;   
+}
+
+#contact-hero span{
+    color: #ff6b00;
+}
+
+#contact-hero h3{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#contact-hero hr{
+    height: 70px;
+    width: 4px;
+    background-color: #ff6b00;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#contact-hero p{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    width: 460px;
+}
+
+#about-hero{
+    background-image: url('../Assets/images/about-hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+    padding: 60px 80px;
+    text-align: left;
+}
+#about-hero h2 span{
+    font-family: "Allura", cursive;
+    color: #ff6b00;
+    font-size: 62px;
+    font-weight: 400;
+}
+#about-hero p{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+#about-hero hr{
+    width: 45px;
+    height: 3px;
+    background-color: #ff6b00;
+    border: none;
+    border-radius: 20px;
+}
+#cart-hero{
+    background-image: url('../Assets/images/cart.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+    padding: 60px 80px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#cart-hero h1{
+color: #ffffff;
+font-family: "Lobster", cursive;
+font-size: 58px;
+font-weight: 400;
+text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+margin-bottom: 20px;
+}
+.divider{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.divider hr{
+    display: inline-block;
+    width: 120px;
+    height: 3px;
+    background-color: #ff6b00;
+    border: none;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+.divider img{
+    width: 34px;
+    height: 34px;
+    margin: 0 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#cart-hero p{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 30px;
+    width: 720px;
+    margin: 0 auto;
+}
